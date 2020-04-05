@@ -13,29 +13,45 @@
 <body>
     <header>
         <div class="logo">
-            <img src="../leonidov-aero/leonidov-images/logomin.png">
+            <img class="logo__img" src="../leonidov-aero/leonidov-images/logomin.png">
         </div>
         
-        <div id="menu">
-            <ul class="menu">
-                <li>Home</li>
-                <li>La-Family</li>
-                <li>La-Planes</li>
-                <li>Blog</li>
-                <li>Gallery</li>
-
+        <nav class="header-navbar">
+            <ul class="header-navbar__list">
+                <li class="header-navbar__list-item">Provider/ Privacy Statement</li>
+                <li class="header-navbar__list-item">Contacts</li>
+                <li class="header-navbar__list-item">Language</li>
+            </ul>   
+        </nav>
+        
+        <nav class="header-navbar">
+            <ul class="header-navbar__list">
+                <li class="header-navbar__list-item">Home</li>
+                <li class="header-navbar__list-item">La-Family</li>
+                <li class="header-navbar__list-item">La-Planes</li>
+                <li class="header-navbar__list-item">Blog</li>
+                <li class="header-navbar__list-item">Gallery</li>
             </ul>
-        </div class="contacts">
-            <p>Contacts</p>
-        </div>
-        <div class="shopcard">
-            <p>Shopping Card</p>
-        </div>
-        <div class="login"> 
-            <p><b>Log in</b></p>
-        </div>
-        <div>
+        </nav>
+
+        <nav class="social-bar">
+            <ul class="social-bar__list">
+                <li class="social-bar__icon">
+                    <a target="_blank" href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+                </li>
+                <li class="social-bar__icon">
+                    <a target="_blank" href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                </li>
+                <li class="social-bar__icon">
+                    <a target="_blank" href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                </li>
+                <li class="social-bar__icon">
+                    <a target="_blank" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                </li>
+            </ul>
+        </nav>
     </header>
+    
     <main>
         <section class="imgbox">
             <img class = "center-fit" src="../leonidov-aero/leonidov-images/hpage.jpg" alt = "Leonidov-aero Planes">
